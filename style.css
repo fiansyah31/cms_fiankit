@@ -1,0 +1,248 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background: transparent !important;
+}
+.navbar {
+    padding: 30px 0px 30px 0px;
+}
+nav ul {
+    margin-left: auto;
+    align-items: center;
+}
+nav ul li {
+    padding: 8px 15px;
+}
+nav ul li:hover {
+    color: #12f5f5 !important;
+}
+nav ul li a {
+    font-weight: 500;
+    font-size: 20px;
+    color: #323232 !important;
+}
+
+section.hero {
+    background-image: url('image/background-hero.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section.hero .hero-content {
+   margin-top: 120px;
+}
+.info-hero h2 {
+    font-weight: bold;
+    font-size: 63px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.info-hero p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    color: #EEEEEE;
+    margin-bottom: 30px;
+}
+
+.modal-header {
+    border: 0px;
+}
+.modal-header h1 {
+    color: #323232;
+    border-bottom: 2px solid #5800FF;
+}
+.modal-body {
+    padding: 80px 30px 20px 30px;
+}
+.modal-content-icon a{
+    padding: 10px 20px;
+}
+.modal-content-icon a i:hover{
+    color: #410ba5;
+}
+.modal-content-icon a i{
+    font-size: 20px;
+    color: #5800FF;
+}
+.modal-body h2 {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 80px;
+    color: #5800FF;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 11;
+}
+#tentang .modal-body .border-width {
+    width: 60%;
+    height: 30px;
+    background-color: #12f5f5;
+    z-index: 0;
+    position: absolute;
+    top: 120px;
+}
+#layanan .modal-body .border-width {
+    width: 20%;
+    height: 30px;
+    background-color: #12f5f5;
+    z-index: 0;
+    position: absolute;
+    top: 120px;
+}
+#proyek .modal-body .border-width {
+    width: 18%;
+    height: 30px;
+    background-color: #12f5f5;
+    z-index: 0;
+    position: absolute;
+    top: 120px;
+}
+
+#proyek .modal-body .content-proyek .image-proyek-item {
+    background-color: #ebebeb;
+    border-radius: 20px;
+    padding: 20px;
+    width: 700px;
+}
+.modal-body p {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #363636;
+    margin-bottom: 5px;
+    z-index: 11;
+    position: relative;
+}
+.btn-primary {
+    padding: 15px 20px 15px 20px;
+    background-color: #72FFFF;
+    color: #5800FF !important;
+    font-weight: bold;
+    border: 1px solid #72FFFF;
+    transition: background-color 100ms ease-in-out;
+}
+.btn-primary:hover {
+    border: 1px solid #12f5f5;
+    background-color: #12f5f5;
+}
+
+
+.login-form {
+    width: 40%;
+    margin: auto auto;
+}
+.login-form h3 {
+    color:#ffffff;
+    font-size: 34px;
+    font-weight: 500;
+}
+.login-form label {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+}
+.login-form input {
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+}
+
+.dashboard-css {
+    overflow-y: scroll;
+    background-color: #f8f8f8;
+}
+section.dashboard {
+    padding-top:50px ;
+}
+.content-dashboard h2 {
+    color: #323232;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.content-dashboard h3 {
+    color: #323232;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-home-page-cms {
+    margin-top: 30px ;
+}
+.form-home-page-cms h4{
+    color: #222222;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.card {
+    border-radius: 20px !important;
+    border: 0px;
+}
+@media (max-width:1220px) {
+    section.hero {
+        background-repeat: repeat;
+    }
+    section.hero .hero-content {
+        margin-bottom:120px;
+    }
+}
+@media (max-width:992px) {
+    .login-form {
+        width: 100%;
+    }
+    .navbar-collapse {
+        
+        border-radius: 20px;
+        margin-top: 20px;
+        background-color: #ffffff;
+    }
+    #tentang .modal-body .border-width {
+        width: 40%;
+        height: 30px;
+        background-color: #12f5f5;
+        z-index: 0;
+        position: absolute;
+        top: 120px;
+    }
+    #layanan .modal-body .border-width {
+        width: 40%;
+        height: 30px;
+        background-color: #12f5f5;
+        z-index: 0;
+        position: absolute;
+        top: 120px;
+    }
+    #proyek .modal-body .border-width {
+        width: 40%;
+        height: 30px;
+        background-color: #12f5f5;
+        z-index: 0;
+        position: absolute;
+        top: 120px;
+    }
+}
+@media (max-width:545px) {
+    .info-hero h2 {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 60px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    .info-hero p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+}
